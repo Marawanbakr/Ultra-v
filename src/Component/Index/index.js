@@ -1,7 +1,7 @@
-import React , {Component} from './node_modules/react'; 
+import React , {Component} from 'react'
+ 
 import Home from './../Home'
 import Footer from './../Footer'
-import Navbar from './../Navbar'
 import About from './../About'
 import Portfolio from './../Portfolio'
 import Work from './../Work'
@@ -14,14 +14,13 @@ class Index extends Component {
   render (){
     return (
       <div>
-        <Navbar />
-        <Home />
-        <Work />
-        <Portfolio />
-        <Profile />
-        <About />
-        <SocialMedia />
-        <Footer />
+         <Home />
+         <Work />
+         <Portfolio />
+         <Profile />
+         <About />
+         <SocialMedia />
+         <Footer />
       </div>
     )
   }

@@ -2,8 +2,8 @@ import React , {Component} from 'react';
 import {BrowserRouter, Route} from 'react-router-dom'
 import './App.css';
 
-import Contact from './Component/Contact/'
 import Navbar from './Component/Navbar/'
+import Contact from './Component/Contact/'
 import Index from './Component/Index/'
 
 class App extends Component {
@@ -11,8 +11,8 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Navbar/>
-        <Route exact path='/'component={Index} />
-        <Route path='/contact'component={Contact} />
+        <Route exact path = '/'component={Index} />
+        <Route path = '/contact'component={Contact} />
       </BrowserRouter>
     )
   }
